@@ -3,12 +3,12 @@ import Button from "../Button/button";
 function OTP(Props) {
   return (
     <form className="col-6">
-      <h1>Enter the OTP</h1>
+      <h2>Enter the OTP</h2>
       <Input type="text" placeholder="OTP" />
       <a href="/">Send OTP</a>
       <div className="d-flex">
-        <Button function={Props.stepFunction} text="Previous" />
-        <Button function={Props.stepFunction} text="Submit" />
+        <Button stepFunction={Props.stepFunction} text="Previous" />
+        <Button stepFunction={Props.stepFunction} text="Next" />
       </div>
     </form>
   );

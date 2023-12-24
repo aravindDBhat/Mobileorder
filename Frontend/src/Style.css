@@ -76,6 +76,7 @@
 }
 .social-icon a {
   border: 1px solid #ccc;
+  color: #0a8537;
   border-radius: 20%;
   display: inline-flex;
   justify-content: center;
@@ -84,7 +85,17 @@
   width: 40px;
   height: 40px;
 }
-
+#icon {
+  border: 1px solid #ccc;
+  margin: 20px 0;
+  border-radius: 20%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 3px;
+  width: 40px;
+  height: 40px;
+}
 .toggle-panel {
   background: linear-gradient(to right, #6e7ed6, #512da8);
   color: #fff;
@@ -114,4 +125,48 @@
 }
 .container.active .toggle-right {
   transform: translateX(200%);
+}
+
+/* Frontpage css... */
+
+.navbar a {
+  color: #fff;
+}
+.navitem {
+  margin-left: 10%;
+}
+.align {
+  text-align: left;
+}
+
+/* Image galary....*/
+.marquee {
+  background-color: black;
+  overflow: hidden;
+}
+.marquee-content {
+  display: flex;
+  animation: scrolling 38s linear infinite;
+}
+
+.marquee-item {
+  flex: 0 0 16vw;
+  margin: 25px 18px 0 0;
+
+  /*   flex: 0 0 20vw; */
+  /*   margin: 0 2vw; */
+}
+
+.marquee-item img {
+  display: block;
+  width: 100%;
+}
+
+@keyframes scrolling {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translatex(-144vw);
+  }
 }
