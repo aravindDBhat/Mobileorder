@@ -170,3 +170,9 @@
     transform: translatex(-144vw);
   }
 }
+
+/* Item Section...*/
+.card {
+  height: 270px;
+  overflow: hidden;
+}
