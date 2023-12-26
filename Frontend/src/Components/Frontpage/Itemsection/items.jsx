@@ -54,10 +54,8 @@ let items = [
     Operating_System: "iOS 10.0.1| upgradable to iOS 10.3.2",
     Internal_memory: "32/128/256 GB",
     RAM: "3 GB RAM",
-    Primary_camera:
-      "Dual 12 MP| (28mm| f/1.8| OIS & 56mm| f/2.8)| phase detection autofocus| 2x optical zoom| quad-LED (dual tone) flash|",
-    Secondary_camera:
-      "7 MP| f/2.2| 32mm| 1080p@30fps| 720p@240fps| face detection| HDR| panorama",
+    Primary_camera: "Dual 12 MP| (28mm| f/1.8| OIS & 56mm| f/2.8)",
+    Secondary_camera: "7 MP| f/2.2| 32mm| 1080p@30fps| 720p@240fps",
     Battery: "Non-removable Li-Ion 2900 mAh battery (11.1 Wh)",
     createdAt: "2020-01-30T14:36:36.382Z",
     updatedAt: "2020-01-30T14:36:36.382Z",

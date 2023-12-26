@@ -1,11 +1,11 @@
 import items from "./items";
 import Card from "./Card/card";
 
-function Itemsection() {
+function Itemsection(Props) {
   return (
     <div>
       {items.map((item) => {
-        return <Card item={item} />;
+        return <Card id={item.id} function={Props.function} item={item} />;
       })}
     </div>
   );

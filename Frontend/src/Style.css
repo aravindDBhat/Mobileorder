@@ -173,6 +173,10 @@
 
 /* Item Section...*/
 .card {
-  height: 270px;
+  max-height: 270px;
   overflow: hidden;
+  cursor: pointer;
+}
+.cardbody {
+  background: linear-gradient(to bottom, #b5fffc, #ffdee9);
 }

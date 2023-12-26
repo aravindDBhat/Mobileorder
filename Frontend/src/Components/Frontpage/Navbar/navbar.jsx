@@ -3,26 +3,6 @@ import Navbar from "react-bootstrap/Navbar";
 import Input from "../../Sign-In-Up/InputField/input";
 function Navbars() {
   return (
-    // <Navbar bg="primary" data-bs-theme="dark">
-    //   <Navbar.Brand className="ms-5 ps-5" href="#home">
-    //     MobileOrder
-    //   </Navbar.Brand>
-    //   <Nav className="mt-0 ms-5 ps-5 me-auto collapse navbar-collapse">
-    //     <Nav.Link className="navitem" href="#home">
-    //       Home
-    //     </Nav.Link>
-    //     <Nav.Link className="navitem" href="#features">
-    //       Features
-    //     </Nav.Link>
-    //   </Nav>
-    //   <div className="d-flex navbar-text me-5 pe-5 ">
-    //     <input type="text" placeholder="Search" />{" "}
-    //     <button className="ms-3 btn btn-success" id="search">
-    //       Search
-    //     </button>
-    //   </div>
-    // </Navbar>
-
     <nav className="navbar navbar-expand-lg   bg-primary">
       <div className=" ms-5 ps-5 container-fluid">
         <a className="navbar-brand" href="#">
@@ -55,7 +35,7 @@ function Navbars() {
           <div className="d-flex navbar-text me-5 pe-5 ">
             <input type="text" placeholder="Search" />
             <button className="ms-3 btn btn-outline-light" id="search">
-              Search
+              <i class="fa-solid fa-magnifying-glass"></i> Search
             </button>
           </div>
         </div>
